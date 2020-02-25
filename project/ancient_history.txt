@@ -1,0 +1,758 @@
+    1  ls -a
+    2  logout
+    3  ranger
+    4  wc
+    5  ls -a
+    6  ssh sympathyforthedevil
+    7  exit
+    8  ls
+    9  cd Desktop
+   10  ls
+   11  cd ..\
+   12  cd ..
+   13  cd ..
+   14  cd ..
+   15  cd ..
+   16  ls
+   17  cd pcpool_data
+   18  ls
+   19  $SHELL
+   20  ls -color
+   21  lsa
+   22  cd fastq
+   23  ls
+   24  cd mogsem07
+   25  ls
+   26  ls -alh
+   27  tmux
+   28  ls
+   29  la -a
+   30  ls -a
+   31  ls
+   32  ls
+   33  ls -a
+   34  ls -alh
+   35  exit
+   36  exit
+   37  cd ../
+   38  cd ..
+   39  cd ..
+   40  cd pcpool_data
+   41  cd fastq
+   42  cd mogsem07
+   43  ls
+   44  zsh
+   45  zsh
+   46  which shell
+   47  which zsh
+   48  ls
+   49  ls
+   50  ls
+   51  ls
+   52  cd ..
+   53  cd mogsem07
+   54  ls
+   55  ll
+   56  ls -l
+   57  ls -l
+   58  ls -l
+   59  ls
+   60  cd ..
+   61  ll
+   62  ls -l
+   63  cd mogsem07
+   64  ls -l
+   65  cd ..
+   66  cd ..
+   67  ls -l
+   68  ls
+   69  history
+   70  history | grep bwa
+   71  exit
+   72  git --help
+   73  git
+   74  which 
+   75  which $SHELL
+   76  ls
+   77  st
+   78  termite
+   79  cd
+   80  vim .tmux.conf
+   81  tmux
+   82  tmux --help
+   83  tmux -a 
+   84  tmux --help
+   85  exit
+   86  htop
+   87  tmux list
+   88  tmux list-sessions
+   89  exit
+   90  tmux -a
+   91  tmux
+   92  tmux attach 0
+   93  tmux attach-session 0
+   94  tmux attach-session
+   95  ls -lsh
+   96  head bigbwaoutput.sam 
+   97  vim bigbwaoutput.sam 
+   98  cd
+   99  vim .bashrc 
+  100  exit
+  101  exit
+  102  cd
+  103  cat .bash_history | grep bwa
+  104  cat .bash_history | grep mem
+  105  ls -lsh
+  106  vim .bash_history 
+  107  exit
+  108  cd
+  109  nvim .bashrc
+  110  vim .bashrc
+  111  vim .vimrc
+  112  exit
+  113  exit
+  114  head mogsem07_1.fastq.gz 
+  115  zcat mogsem07_1.fastq.gz | head -n 100
+  116  zcat mogsem07_1.fastq.gz | head -n 100
+  117  zcat mogsem07_2.fastq.gz | head -n 100
+  118  exit
+  119  igv
+  120  conda list
+  121  ls -lsh
+  122  mv bigbwaoutput.index bigbwaoutput.bam.bai
+  123  ls
+  124  history | grep bwa
+  125  cat ~/.bash_history | grep bwa
+  126  bwa mem -R /projekt/pcpool_data/genome/hg38.fa test1.txt test2.txt
+  127  "@RG\tID:\tSM:" /projekt/pcpool_data/genome/hg38.fa test1.txt test2.txt > test_felix.txt
+  128  bwa mem -R "@RG\tID:\tSM:" /projekt/pcpool_data/genome/hg38.fa test1.txt test2.txt > test_felix.txt
+  129  bwa mem -R "@RG\tID:\tSM:" /projekt/pcpool_data/genome/hg38 test1.txt test2.txt > test_felix.txt
+  130  bwa mem -R "@RG\tID:\tSM:" /projekt/pcpool_data/data/hg38  test1.txt test2.txt > test_felix.txt
+  131  bwa mem -R "@RG\tID:\tSM:" /projekt/pcpool_data/genome2/hg38.fa test1.txt test2.txt > test_felix.txt
+  132  bwa mem  /projekt/pcpool_data/genome2/hg38.fa test1.txt test2.txt > test_felix.txt
+  133  ls /project/pcpool_data/genome/
+  134  bwa mem /projekt/pcpool_data/genome/hg38.fa test1.txt test2.txt > test_felix.txt
+  135  bwa mem
+  136  bwa mem /project/pcpool_data/genome/hg38.fa test1.txt test2.txt > test_felix.txt
+  137  head test_felix.txt
+  138  cat test_felix.txt
+  139  vim test_felix.txt 
+  140  bwa mem /project/pcpool_data/genome/hg38 test1.txt test2.txt > test_felix.txt
+  141  bwa mem /project/pcpool_data/genome/hg38.fai test1.txt test2.txt > test_felix.txt
+  142  bwa mem /project/pcpool_data/data/hg38.fai test1.txt test2.txt > test_felix.txt
+  143  bwa mem /project/pcpool_data/data/hg38 test1.txt test2.txt > test_felix.txt
+  144* bwa mem /project/pcpool_data/genome/hg38.fa test1.t
+  145  cat bigbwaoutput.sam | grep chrY
+  146  cat bigbwaoutput.sam | grep chrY | less
+  147  ls
+  148  nano stats.txt
+  149  which bedtools
+  150  bedtools coverage bigbwaoutput.bam
+  151  bedtools coverage -a bigbwaoutput.bam
+  152  bedtools bamtobed bigbwaoutput.bam > bigbwaoutput.bed
+  153  bedtools bamtobed -i bigbwaoutput.bam > bigbwaoutput.bed
+  154  bedtools genomecov -i bigbwaoutput.bam -g /project/pcpool_data/genome/hg38.fa
+  155  bedtools genomecov -i bigbwaoutput.bam -g /project/pcpool_data/genome/hg38
+  156  bedtools genomecov -i bigbwaoutput.bam -g /project/pcpool_data/genome/hg38.fa -d
+  157  bedtools genomecov -i bigbwaoutput.bam -g /project/pcpool_data/genome/hg38 -d
+  158  bedtools genomecov -i bigbwaoutput.bam -g /project/pcpool_data/genome/hg38.fa -d
+  159  bedtools genomecov -ibam bigbwaoutput.bam -bg > covtest.txt
+  160  vim covtest.txt 
+  161  cat covtest.txt | awk '$4 > 50' | head
+  162  cat covtest.txt | awk '$4 > 50'
+  163  cat covtest.txt | awk '$4 > 500'
+  164  cat covtest.txt | awk '$4 > 5000'
+  165  bedtools genomecov -i bigbwaoutput.bed -g /project/pcpool_data/genome2/hg38.fa
+  166  head /project/pcpool_data/genome2/hg38.fa.fai
+  167  cat /project/pcpool_data/genome2/hg38.fa.fai > awk -v OFS='\t' {'print $1,$2'} > hg38.genome
+  168  awk -v OFS='\t' {'print $1,$2'} /project/pcpool_data/genome2/hg38.fa.fai > hg38.genome
+  169  bedtools genomecov -i bigbwaoutput.bed -g hg38.genome
+  170  bedtools genomecov -i bigbwaoutput.bed -g hg38.genome > coverage.txt
+  171* head coverage.tx-a
+  172  tail coverage.txt 
+  173  vim cov
+  174  vim coverage.txt 
+  175  bedtools coverage -a bigbwaoutput.bed -b hg38.genome > coverage.txt
+  176  bedtools coverage -a bigbwaoutput.bed -g hg38.genome > coverage.txt
+  177  bedtools coverage -a bigbwaoutput.bed -b hg38.genome -g > coverage.txt
+  178  bedtools coverage -a bigbwaoutput.bed -g hg38.genome > coverage2.txt
+  179  head coverage.txt
+  180  ls
+  181  head covtest.txt
+  182  bedtools genomecov -i bigbwaoutput.bed -g hg38.genome > coverage.txt
+  183  rm mogsem07_2_fastqc.zip 
+  184  head coverage.txt
+  185  cat coverage.txt | grep chrY | head
+  186  cat coverage.txt | grep chrY | head -n 10000
+  187  cat coverage.txt | grep chrY | head -n 10000
+  188  cat coverage.txt | grep chrY | head -n 100000
+  189  cat coverage.txt | grep chrY
+  190  samtools depth -r chrY bigbwaoutput.bam
+  191  history > temp.history2
+    1  ls -a
+    2  logout
+    3  ranger
+    4  wc
+    5  ls -a
+    6  ssh sympathyforthedevil
+    7  exit
+    8  ls
+    9  cd Desktop
+   10  ls
+   11  cd ..\
+   12  cd ..
+   13  cd ..
+   14  cd ..
+   15  cd ..
+   16  ls
+   17  cd pcpool_data
+   18  ls
+   19  $SHELL
+   20  ls -color
+   21  lsa
+   22  cd fastq
+   23  ls
+   24  cd mogsem07
+   25  ls
+   26  ls -alh
+   27  tmux
+   28  ls
+   29  la -a
+   30  ls -a
+   31  ls
+   32  ls
+   33  ls -a
+   34  ls -alh
+   35  exit
+   36  exit
+   37  cd ../
+   38  cd ..
+   39  cd ..
+   40  cd pcpool_data
+   41  cd fastq
+   42  cd mogsem07
+   43  ls
+   44  zsh
+   45  zsh
+   46  which shell
+   47  which zsh
+   48  ls
+   49  ls
+   50  ls
+   51  ls
+   52  cd ..
+   53  cd mogsem07
+   54  ls
+   55  ll
+   56  ls -l
+   57  ls -l
+   58  ls -l
+   59  ls
+   60  cd ..
+   61  ll
+   62  ls -l
+   63  cd mogsem07
+   64  ls -l
+   65  cd ..
+   66  cd ..
+   67  ls -l
+   68  ls
+   69  history
+   70  history | grep bwa
+   71  exit
+   72  git --help
+   73  git
+   74  which 
+   75  which $SHELL
+   76  ls
+   77  st
+   78  termite
+   79  cd
+   80  vim .tmux.conf
+   81  tmux
+   82  tmux --help
+   83  tmux -a 
+   84  tmux --help
+   85  exit
+   86  htop
+   87  tmux list
+   88  tmux list-sessions
+   89  exit
+   90  tmux -a
+   91  tmux
+   92  tmux attach 0
+   93  tmux attach-session 0
+   94  tmux attach-session
+   95  ls -lsh
+   96  head bigbwaoutput.sam 
+   97  vim bigbwaoutput.sam 
+   98  cd
+   99  vim .bashrc 
+  100  exit
+  101  exit
+  102  cd
+  103  cat .bash_history | grep bwa
+  104  cat .bash_history | grep mem
+  105  ls -lsh
+  106  vim .bash_history 
+  107  exit
+  108  cd
+  109  nvim .bashrc
+  110  vim .bashrc
+  111  vim .vimrc
+  112  exit
+  113  man igv 
+  114  igv bigbwaoutput.bam 
+  115  history > temp.history4.txt
+    1  ls -a
+    2  logout
+    3  ranger
+    4  wc
+    5  ls -a
+    6  ssh sympathyforthedevil
+    7  exit
+    8  ls
+    9  cd Desktop
+   10  ls
+   11  cd ..\
+   12  cd ..
+   13  cd ..
+   14  cd ..
+   15  cd ..
+   16  ls
+   17  cd pcpool_data
+   18  ls
+   19  $SHELL
+   20  ls -color
+   21  lsa
+   22  cd fastq
+   23  ls
+   24  cd mogsem07
+   25  ls
+   26  ls -alh
+   27  tmux
+   28  ls
+   29  la -a
+   30  ls -a
+   31  ls
+   32  ls
+   33  ls -a
+   34  ls -alh
+   35  exit
+   36  exit
+   37  cd ../
+   38  cd ..
+   39  cd ..
+   40  cd pcpool_data
+   41  cd fastq
+   42  cd mogsem07
+   43  ls
+   44  zsh
+   45  zsh
+   46  which shell
+   47  which zsh
+   48  ls
+   49  ls
+   50  ls
+   51  ls
+   52  cd ..
+   53  cd mogsem07
+   54  ls
+   55  ll
+   56  ls -l
+   57  ls -l
+   58  ls -l
+   59  ls
+   60  cd ..
+   61  ll
+   62  ls -l
+   63  cd mogsem07
+   64  ls -l
+   65  cd ..
+   66  cd ..
+   67  ls -l
+   68  ls
+   69  history
+   70  history | grep bwa
+   71  exit
+   72  git --help
+   73  git
+   74  which 
+   75  which $SHELL
+   76  ls
+   77  st
+   78  termite
+   79  cd
+   80  vim .tmux.conf
+   81  tmux
+   82  tmux --help
+   83  tmux -a 
+   84  tmux --help
+   85  exit
+   86  htop
+   87  tmux list
+   88  tmux list-sessions
+   89  exit
+   90  tmux -a
+   91  tmux
+   92  tmux attach 0
+   93  tmux attach-session 0
+   94  tmux attach-session
+   95  ls -lsh
+   96  head bigbwaoutput.sam 
+   97  vim bigbwaoutput.sam 
+   98  cd
+   99  vim .bashrc 
+  100  exit
+  101  exit
+  102  cd
+  103  cat .bash_history | grep bwa
+  104  cat .bash_history | grep mem
+  105  ls -lsh
+  106  vim .bash_history 
+  107  exit
+  108  cd
+  109  nvim .bashrc
+  110  vim .bashrc
+  111  vim .vimrc
+  112  exit
+  113  cat ~/.bash_history | grep bwa
+  114  history 
+  115  history | grep bwa
+  116  history > temp.history.5.txt
+    1  ls -a
+    2  logout
+    3  ranger
+    4  wc
+    5  ls -a
+    6  ssh sympathyforthedevil
+    7  exit
+    8  ls
+    9  cd Desktop
+   10  ls
+   11  cd ..\
+   12  cd ..
+   13  cd ..
+   14  cd ..
+   15  cd ..
+   16  ls
+   17  cd pcpool_data
+   18  ls
+   19  $SHELL
+   20  ls -color
+   21  lsa
+   22  cd fastq
+   23  ls
+   24  cd mogsem07
+   25  ls
+   26  ls -alh
+   27  tmux
+   28  ls
+   29  la -a
+   30  ls -a
+   31  ls
+   32  ls
+   33  ls -a
+   34  ls -alh
+   35  exit
+   36  exit
+   37  cd ../
+   38  cd ..
+   39  cd ..
+   40  cd pcpool_data
+   41  cd fastq
+   42  cd mogsem07
+   43  ls
+   44  zsh
+   45  zsh
+   46  which shell
+   47  which zsh
+   48  ls
+   49  ls
+   50  ls
+   51  ls
+   52  cd ..
+   53  cd mogsem07
+   54  ls
+   55  ll
+   56  ls -l
+   57  ls -l
+   58  ls -l
+   59  ls
+   60  cd ..
+   61  ll
+   62  ls -l
+   63  cd mogsem07
+   64  ls -l
+   65  cd ..
+   66  cd ..
+   67  ls -l
+   68  ls
+   69  history
+   70  history | grep bwa
+   71  exit
+   72  git --help
+   73  git
+   74  which 
+   75  which $SHELL
+   76  ls
+   77  st
+   78  termite
+   79  cd
+   80  vim .tmux.conf
+   81  tmux
+   82  tmux --help
+   83  tmux -a 
+   84  tmux --help
+   85  exit
+   86  htop
+   87  tmux list
+   88  tmux list-sessions
+   89  exit
+   90  tmux -a
+   91  tmux
+   92  tmux attach 0
+   93  tmux attach-session 0
+   94  tmux attach-session
+   95  ls -lsh
+   96  head bigbwaoutput.sam 
+   97  vim bigbwaoutput.sam 
+   98  cd
+   99  vim .bashrc 
+  100  exit
+  101  exit
+  102  bwa mem -R "@RG\tID:rgid" /project/pcpool_data/genome2/hg38.fa test1.txt test2.txt > testB00.sam
+  103  cat testB00.sam 
+  104  history | grep bwa
+  105  histoy > temp.history
+  106  history
+  107  history >> tmp.txt
+  108  history >> tmphist.txt
+  109  cat tmphist.txt 
+  110  cat tmphist.txt  | bwa
+  111  cat tmphist.txt  | grep bwa
+  112  samtools stats bigbwaoutput.bam 
+  113  samtools stats bigbwaoutput.bam 
+  114  samtools stats bigbwaoutput.bam > stats.txt
+  115  vim stats.txt 
+  116  igv --help
+  117  java igv
+  118  igv
+  119  vim stats.txt 
+  120  history | grep samtools
+  121  history > tmphist.3.txt
+    1  ls -a
+    2  logout
+    3  ranger
+    4  wc
+    5  ls -a
+    6  ssh sympathyforthedevil
+    7  exit
+    8  ls
+    9  cd Desktop
+   10  ls
+   11  cd ..\
+   12  cd ..
+   13  cd ..
+   14  cd ..
+   15  cd ..
+   16  ls
+   17  cd pcpool_data
+   18  ls
+   19  $SHELL
+   20  ls -color
+   21  lsa
+   22  cd fastq
+   23  ls
+   24  cd mogsem07
+   25  ls
+   26  ls -alh
+   27  tmux
+   28  ls
+   29  la -a
+   30  ls -a
+   31  ls
+   32  ls
+   33  ls -a
+   34  ls -alh
+   35  exit
+   36  exit
+   37  cd ../
+   38  cd ..
+   39  cd ..
+   40  cd pcpool_data
+   41  cd fastq
+   42  cd mogsem07
+   43  ls
+   44  zsh
+   45  zsh
+   46  which shell
+   47  which zsh
+   48  ls
+   49  ls
+   50  ls
+   51  ls
+   52  cd ..
+   53  cd mogsem07
+   54  ls
+   55  ll
+   56  ls -l
+   57  ls -l
+   58  ls -l
+   59  ls
+   60  cd ..
+   61  ll
+   62  ls -l
+   63  cd mogsem07
+   64  ls -l
+   65  cd ..
+   66  cd ..
+   67  ls -l
+   68  ls
+   69  history
+   70  history | grep bwa
+   71  exit
+   72  git --help
+   73  git
+   74  which 
+   75  which $SHELL
+   76  ls
+   77  st
+   78  termite
+   79  cd
+   80  vim .tmux.conf
+   81  tmux
+   82  tmux --help
+   83  tmux -a 
+   84  tmux --help
+   85  exit
+   86  htop
+   87  tmux list
+   88  tmux list-sessions
+   89  exit
+   90  tmux -a
+   91  tmux
+   92  tmux attach 0
+   93  tmux attach-session 0
+   94  tmux attach-session
+   95  ls -lsh
+   96  head bigbwaoutput.sam 
+   97  vim bigbwaoutput.sam 
+   98  cd
+   99  vim .bashrc 
+  100  exit
+  101  exit
+  102  bwa mem -R "@RG\tID:rgid" /project/pcpool_data/genome2/hg38.fa test1.txt test2.txt > testB00.sam
+  103  cat testB00.sam 
+  104  history | grep bwa
+  105  histoy > temp.history
+  106  history
+  107  history >> tmp.txt
+  108  history >> tmphist.txt
+    1  ls -a
+    2  logout
+    3  ranger
+    4  wc
+    5  ls -a
+    6  ssh sympathyforthedevil
+    7  exit
+    8  ls
+    9  cd Desktop
+   10  ls
+   11  cd ..\
+   12  cd ..
+   13  cd ..
+   14  cd ..
+   15  cd ..
+   16  ls
+   17  cd pcpool_data
+   18  ls
+   19  $SHELL
+   20  ls -color
+   21  lsa
+   22  cd fastq
+   23  ls
+   24  cd mogsem07
+   25  ls
+   26  ls -alh
+   27  tmux
+   28  ls
+   29  la -a
+   30  ls -a
+   31  ls
+   32  ls
+   33  ls -a
+   34  ls -alh
+   35  exit
+   36  exit
+   37  cd ../
+   38  cd ..
+   39  cd ..
+   40  cd pcpool_data
+   41  cd fastq
+   42  cd mogsem07
+   43  ls
+   44  zsh
+   45  zsh
+   46  which shell
+   47  which zsh
+   48  ls
+   49  ls
+   50  ls
+   51  ls
+   52  cd ..
+   53  cd mogsem07
+   54  ls
+   55  ll
+   56  ls -l
+   57  ls -l
+   58  ls -l
+   59  ls
+   60  cd ..
+   61  ll
+   62  ls -l
+   63  cd mogsem07
+   64  ls -l
+   65  cd ..
+   66  cd ..
+   67  ls -l
+   68  ls
+   69  history
+   70  history | grep bwa
+   71  exit
+   72  git --help
+   73  git
+   74  which 
+   75  which $SHELL
+   76  ls
+   77  st
+   78  termite
+   79  cd
+   80  vim .tmux.conf
+   81  tmux
+   82  tmux --help
+   83  tmux -a 
+   84  tmux --help
+   85  exit
+   86  htop
+   87  tmux list
+   88  tmux list-sessions
+   89  exit
+   90  tmux -a
+   91  tmux
+   92  tmux attach 0
+   93  tmux attach-session 0
+   94  tmux attach-session
+   95  ls -lsh
+   96  head bigbwaoutput.sam 
+   97  vim bigbwaoutput.sam 
+   98  cd
+   99  vim .bashrc 
+  100  exit
+  101  exit
+  102  bwa mem -R "@RG\tID:rgid" /project/pcpool_data/genome2/hg38.fa test1.txt test2.txt > testB00.sam
+  103  cat testB00.sam 
+  104  history | grep bwa
+  105  histoy > temp.history
+  106  history
+  107  history >> tmp.txt
