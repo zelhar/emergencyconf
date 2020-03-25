@@ -34,7 +34,7 @@ Plug 'Twinside/vim-hoogle' "haskell hoogle plgin
 Plug 'neovimhaskell/haskell-vim' "syntax highlighter
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "not just haskell.
 """"python formatter
-Plug 'psf/black'
+"Plug 'psf/black'
 
 Plug 'jpalardy/vim-slime'
 

@@ -67,6 +67,7 @@ plugins=(
   #tmux-cssh
   vi-mode
   web-search
+  zsh-interactive-cd
   zsh_reload
 )
 
